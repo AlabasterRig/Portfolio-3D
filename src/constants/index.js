@@ -10,11 +10,7 @@ const navLinks = [
     {
       name: "Skills",
       link: "#skills",
-    },
-    {
-      name: "Testimonials",
-      link: "#testimonials",
-    },
+    }
   ];
   
   const words = [
@@ -30,7 +26,7 @@ const navLinks = [
   
   const counterItems = [
     { value: 1, suffix: "+", label: "Years of Experience" },
-    { value: 28, suffix: "+", label: "Completed Projects (Now Work)" },
+    { value: 28, suffix: "+", label: "Completed Projects (Non Work)" },
   ];
   
   const logoIconsList = [
