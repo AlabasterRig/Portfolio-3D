@@ -56,9 +56,9 @@ const ShowcaseSection = () => {
                             </div>
                             <div className='text-content'>
                                 <h2>Fall Guy Survival</h2>
-                                <p className='text-white-50 md:text-xl'>
+                                {/* <p className='text-white-50 md:text-xl'>
                                     This is paragraph of Project 1 that is to be changed later.
-                                </p>
+                                </p> */}
                             </div>
                         </a>
                     </div>

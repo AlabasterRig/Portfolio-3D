@@ -4,7 +4,7 @@ const navLinks = [
       link: "#projects",
     },
     {
-      name: "Experience",
+      name: "Overview",
       link: "#experience",
     },
     {
@@ -26,8 +26,10 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 1, suffix: "+", label: "Years of Experience" },
-    { value: 28, suffix: "+", label: "Completed Projects (Non Work)" },
+    { value: 24, suffix: "+", label: "Projects & Personal Builds" },
+    { value: 4, suffix: "+", label: "Technologies Mastered" },
+    { value: 3, suffix: "+", label: "Major Game Projects" },
+    { value: 300, suffix: "+", label: "Hours of C++/Unreal Practice" },
   ];
   
   const logoIconsList = [ 
@@ -106,31 +108,31 @@ const navLinks = [
   
   const techStackIcons = [
     {
-      name: "React Developer",
-      modelPath: "/assets/public/models/react_logo-transformed.glb",
-      scale: 1,
-      rotation: [0, 0, 0],
+      name: "Unreal Developer",
+      modelPath: "/assets/public/models/UE-Logo.glb",
+      scale: 1.3,
+      rotation: [0, 5, 0],
     },
     {
-      name: "Python Developer",
-      modelPath: "/assets/public/models/python-transformed.glb",
-      scale: 0.8,
+      name: "C++ Developer",
+      modelPath: "/assets/public/models/cpp.glb",
+      scale: 0.09,
       rotation: [0, 0, 0],
     },
     {
       name: "Backend Developer",
       modelPath: "/assets/public/models/node-transformed.glb",
-      scale: 5,
+      scale: 6,
       rotation: [0, -Math.PI / 2, 0],
     },
     {
-      name: "Interactive Developer",
-      modelPath: "/assets/public/models/three.js-transformed.glb",
-      scale: 0.05,
-      rotation: [0, 0, 0],
+      name: "Unity Developer",
+      modelPath: "/assets/public/models/unity.glb",
+      scale: 0.9,
+      rotation: [1.5, 2, 0],
     },
     {
-      name: "Project Manager",
+      name: "Project Management",
       modelPath: "/assets/public/models/git-svg-transformed.glb",
       scale: 0.05,
       rotation: [0, -Math.PI / 4, 0],
@@ -155,8 +157,8 @@ const navLinks = [
       review: "A command-line Pokemon battle simulator in C++ featuring turn-based combat, multiple Pokemon species with unique moves, status effects, and environment-specific encounters. Experience Pokemon battles through this OOP showcase with inheritance, polymorphism, and Strategy pattern for extensible game mechanics. ",
       // imgPath: "/assets/public/images/exp6.png",
       logoPath: "/assets/public/images/logo2.svg",
-      title: "C++ – Pokemon Console Game (Personal Project)",
-      date: "April 2025",
+      title: "C++ – Pokemon Turn-Based RPG (Personal Project)",
+      date: "April 2025 - Present",
       responsibilities: [
         "Built a battle system using OOP principles, with 8+ unique species and diverse abilities.",
         "Developed a dynamic combat system with state management, damage calculation, and move selection.",
@@ -168,8 +170,8 @@ const navLinks = [
       review: "A RESTful API service for managing subscription data, built with Node.js, C++, and MongoDB. The project includes secure authentication, thorough testing, and performance optimizations to ensure reliable and scalable backend functionality.",
       // imgPath: "/assets/public/images/exp7.png",
       logoPath: "/assets/public/images/logo3.svg",
-      title: "C++/Node.js – Subscription Tracker API (Personal Project)",
-      date: "January 2025 - February 2025",
+      title: "Node.js – Subscription Tracker API (Personal Project)",
+      date: "February 2025 - March 2025",
       responsibilities: [
         "Designed and developed the system with secure authentication and source code version control practices.",
         "Implemented comprehensive test cases covering API endpoints, data validation, and security checks.",
@@ -195,46 +197,25 @@ const navLinks = [
   
   const testimonials = [
     {
-      name: "Esther Howard",
-      mentions: "@estherhoward",
+      name: "Kalinga Institute of Industrial Technology",
+      mentions: "2021 - 2025",
       review:
-        "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+        "Completed my B.Tech degree in Computer Science and Engineering from KIIT University, Bhubaneswar, Odisha. The university provided a strong foundation in computer science principles and hands-on experience with various technologies.",
       imgPath: "/assets/public/images/client1.png",
     },
     {
-      name: "Wade Warren",
-      mentions: "@wadewarren",
+      name: "Sri Bhagawan Mahavir Jain College",
+      mentions: "2019 - 2021",
       review:
-        "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+        "Completed my Pre-University education in Science from Sri Bhagawan Mahavir Jain College, Bangalore, Karnataka. I took PCMB (Physics, Chemistry, Mathematics, Biology) as my subjects. This experience solidified my interest in technology and computer science.",
       imgPath: "/assets/public/images/client3.png",
     },
     {
-      name: "Guy Hawkins",
-      mentions: "@guyhawkins",
+      name: "St. Joseph's Boys' High School",
+      mentions: "2007 - 2018",
       review:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+        "Completed my schooling from one of the most prestigious schools in Bangalore, Karnataka. The school provided a strong foundation in academics and extracurricular activities, shaping my overall personality.",
       imgPath: "/assets/public/images/client2.png",
-    },
-    {
-      name: "Marvin McKinney",
-      mentions: "@marvinmckinney",
-      review:
-        "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-      imgPath: "/assets/public/images/client5.png",
-    },
-    {
-      name: "Floyd Miles",
-      mentions: "@floydmiles",
-      review:
-        "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-      imgPath: "/assets/public/images/client4.png",
-    },
-    {
-      name: "Albert Flores",
-      mentions: "@albertflores",
-      review:
-        "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-      imgPath: "/assets/public/images/client6.png",
     },
   ];
   
