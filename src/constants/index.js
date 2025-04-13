@@ -30,57 +30,54 @@ const navLinks = [
     { value: 28, suffix: "+", label: "Completed Projects (Non Work)" },
   ];
   
-  const logoIconsList = [
+  const logoIconsList = [ 
     {
-      imgPath: "/assets/public/images/logos/company-logo-1.png",
+      imgPath: "/assets/public/images/logos/UE5.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-2.png",
+      imgPath: "/assets/public/images/logos/Unity.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-3.png",
+      imgPath: "/assets/public/images/logos/Blender.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-4.png",
+      imgPath: "/assets/public/images/logos/C++.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-5.png",
+      imgPath: "/assets/public/images/logos/Cs.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-6.png",
+      imgPath: "/assets/public/images/logos/Git.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-7.png",
+      imgPath: "/assets/public/images/logos/Docker.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-8.png",
+      imgPath: "/assets/public/images/logos/Aws.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-9.png",
+      imgPath: "/assets/public/images/logos/MS-Office.png",
     },
     {
-      imgPath: "/assets/public/images/logos/company-logo-10.png",
-    },
-    {
-      imgPath: "/assets/public/images/logos/company-logo-11.png",
+      imgPath: "/assets/public/images/logos/NodeJS.png",
     },
   ];
   
   const abilities = [
     {
       imgPath: "/assets/public/images/seo.png",
-      title: "Quality Focus",
-      desc: "Delivering high-quality results while maintaining attention to every detail.",
+      title: "Strong Foundational Skills",
+      desc: "Solid understanding of core concepts with hands-on practice through projects and learning.",
     },
     {
       imgPath: "/assets/public/images/chat.png",
-      title: "Reliable Communication",
-      desc: "Keeping you updated at every step to ensure transparency and clarity.",
+      title: "Clear Communicator",
+      desc: "Able to explain ideas clearly and collaborate effectively in team environments.",
     },
     {
       imgPath: "/assets/public/images/time.png",
-      title: "On-Time Delivery",
-      desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+      title: "Self-Driven & Reliable",
+      desc: "Capable of managing time well and staying committed to completing tasks independently.",
     },
   ];
   
@@ -142,41 +139,43 @@ const navLinks = [
   
   const expCards = [
     {
-      review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/assets/public/images/exp1.png",
-      logoPath: "/assets/public/images/logo1.png",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
+      review: "A survival game built using Unreal Engine 5, showcasing the core game logic and coding aspects. This project emphasizes C++ and Blueprint integration, with detailed explanations and a focus on game mechanics.",
+      // imgPath: "/assets/public/images/exp4.png",
+      logoPath: "/assets/public/images/logo1.svg",
+      title: "Unreal Engine, C++ – Fall Guy Survival (Personal Project)",
+      date: "August 2024 - Present",
       responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
+        "Developed a modular save/load system in Unreal Engine using C++ to ensure persistent player progress and world state.",
+        "Implemented a dynamic inventory system supporting collection, usage, and management of in-game items.",
+        "Created an interactive gameplay framework for object interaction, resource harvesting, and environment mechanics.",
+        "Optimized performance using procedural content generation and efficient resource management techniques.",
       ],
     },
     {
-      review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/assets/public/images/exp2.png",
-      logoPath: "/assets/public/images/logo2.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
+      review: "A command-line Pokemon battle simulator in C++ featuring turn-based combat, multiple Pokemon species with unique moves, status effects, and environment-specific encounters. Experience Pokemon battles through this OOP showcase with inheritance, polymorphism, and Strategy pattern for extensible game mechanics. ",
+      // imgPath: "/assets/public/images/exp6.png",
+      logoPath: "/assets/public/images/logo2.svg",
+      title: "C++ – Pokemon Console Game (Personal Project)",
+      date: "April 2025",
       responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
+        "Built a battle system using OOP principles, with 8+ unique species and diverse abilities.",
+        "Developed a dynamic combat system with state management, damage calculation, and move selection.",
+        "Created an environment-specific encounter system using probability-based mechanics.",
+        "Implemented a flexible status effect system using the Strategy pattern.",
       ],
     },
     {
-      review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-      imgPath: "/assets/public/images/exp3.png",
-      logoPath: "/assets/public/images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
+      review: "A RESTful API service for managing subscription data, built with Node.js, C++, and MongoDB. The project includes secure authentication, thorough testing, and performance optimizations to ensure reliable and scalable backend functionality.",
+      // imgPath: "/assets/public/images/exp7.png",
+      logoPath: "/assets/public/images/logo3.svg",
+      title: "C++/Node.js – Subscription Tracker API (Personal Project)",
+      date: "January 2025 - February 2025",
       responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
+        "Designed and developed the system with secure authentication and source code version control practices.",
+        "Implemented comprehensive test cases covering API endpoints, data validation, and security checks.",
+        "Improved performance by applying request rate limiting and optimizing database queries, resulting in 40% faster response times.",
       ],
-    },
+    }
   ];
   
   const expLogos = [
