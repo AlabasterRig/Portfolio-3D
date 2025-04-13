@@ -1,7 +1,7 @@
 const navLinks = [
     {
-      name: "Work",
-      link: "#work",
+      name: "Projects",
+      link: "#projects",
     },
     {
       name: "Experience",
@@ -243,18 +243,17 @@ const navLinks = [
     {
       name: "insta",
       imgPath: "/assets/public/images/insta.png",
-    },
-    {
-      name: "fb",
-      imgPath: "/assets/public/images/fb.png",
-    },
-    {
-      name: "x",
-      imgPath: "/assets/public/images/x.png",
+      url: "https://www.instagram.com/utkrist2/"
     },
     {
       name: "linkedin",
       imgPath: "/assets/public/images/linkedin.png",
+      url: "https://www.linkedin.com/in/utkrist-jaiswal/"
+    },
+    {
+      name: "GitHub",
+      imgPath: "/assets/public/images/github.png",
+      url: "https://github.com/AlabasterRig"
     },
   ];
   
