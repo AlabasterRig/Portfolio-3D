@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="Get in Touch – Let’s Connect"
-          sub="💬 Have questions or ideas? Let’s talk! 🚀"
+          sub="💬 Have questions? Let’s talk! 🚀"
         />
         <div className="grid-12-cols mt-16">
           <div className="xl:col-span-5">
@@ -62,7 +62,7 @@ const Contact = () => {
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="What’s your good name?"
+                    placeholder="What’s your name?"
                     required
                   />
                 </div>
