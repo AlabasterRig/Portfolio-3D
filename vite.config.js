@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   server: {
     host: '0.0.0.0', // Ensures the server listens on all interfaces
-    allowedHosts: ['utkri.st'], // Add your domain here
   },
+  // Use relative paths for assets in production
+  base: './',
 })
