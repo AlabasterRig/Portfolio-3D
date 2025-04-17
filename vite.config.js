@@ -13,4 +13,9 @@ export default defineConfig({
   },
   // Use relative paths for assets in production
   base: './',
+  preview: {
+    host: '0.0.0.0',
+    port: 4173,
+    allowedHosts: ['utkri.st', 'www.utkri.st']
+  }
 })
