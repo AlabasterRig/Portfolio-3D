@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       name: "portfolio-3d",
-      script: "./node_modules/.bin/vite",
-      args: "preview",
+      script: "npx",  // Using npx instead of direct path
+      args: "vite preview --host",  // Added --host flag to bind to all interfaces
       cwd: "./",
       env: {
         NODE_ENV: "production",
@@ -12,7 +12,8 @@ module.exports = {
       instances: 1,
       autorestart: true,
       watch: false,
-      max_memory_restart: "1G"
+      max_memory_restart: "1G",
+      interpreter: "node"  // Explicitly using node interpreter
     }
   ]
 };
