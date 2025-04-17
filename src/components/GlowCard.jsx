@@ -23,7 +23,7 @@ const GlowCard = ({ card, children, index }) => {
         {/* {Array.from({ length: 5 }, (_, i) => (
           <img
             key={i}
-            src="/assets/public/images/star.png"
+            src="/images/star.png"
             alt='star'
             className='size-5'
           />

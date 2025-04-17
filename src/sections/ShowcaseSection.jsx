@@ -50,7 +50,7 @@ const ShowcaseSection = () => {
                         <a href='https://github.com/AlabasterRig/FallGuySurvival' target='_blank'>
                             <div className='image-wrapper'>
                                 <img
-                                    src='/assets/public/images/project1.png'
+                                    src='/images/project1.png'
                                     alt='Test Image 1'
                                 />
                             </div>
@@ -69,7 +69,7 @@ const ShowcaseSection = () => {
                             <a href='https://github.com/AlabasterRig/Pokemon/tree/Feature_10_Interfaces'>
                                 <div className='image-wrapper bg-[#ffefdb]'>
                                     <img
-                                        src='/assets/public/images/project2.png'
+                                        src='/images/project2.png'
                                         alt='Test Image 2'
                                     />
                                 </div>
@@ -81,7 +81,7 @@ const ShowcaseSection = () => {
                             <a href='https://github.com/AlabasterRig/Subscription-Tracker' target='_blank'>
                                 <div className='image-wrapper bg-[#ffe7eb]'>
                                     <img
-                                        src='/assets/public/images/project3.png'
+                                        src='/images/project3.png'
                                         alt='Test Image 3'
                                     />
                                 </div>
