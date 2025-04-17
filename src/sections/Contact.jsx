@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader.jsx";
-import ContactExperience from "../components/Models/Contact/ContactExperience.jsx";
+import ContactExperience from "../components/Models/Contacts/ContactExperience.jsx"
 
 const Contact = () => {
   const formRef = useRef(null);
