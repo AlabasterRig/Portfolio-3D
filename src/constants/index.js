@@ -29,7 +29,7 @@ const navLinks = [
     { value: 24, suffix: "+", label: "Projects & Personal Builds" },
     { value: 4, suffix: "+", label: "Technologies Mastered" },
     { value: 3, suffix: "+", label: "Major Game Projects" },
-    { value: 300, suffix: "+", label: "Hours of C++/Unreal Practice" },
+    { value: 500, suffix: "+", label: "Hours of C++/Unreal Practice" },
   ];
   
   const logoIconsList = [ 
