@@ -49,6 +49,9 @@ const navLinks = [
       imgPath: "/images/logos/Cs.png",
     },
     {
+      imgPath: "/images/logos/Python.png",
+    },
+    {
       imgPath: "/images/logos/Git.png",
     },
     {
@@ -62,6 +65,9 @@ const navLinks = [
     },
     {
       imgPath: "/images/logos/NodeJS.png",
+    },
+    {
+      imgPath: "/images/logos/GitLab.png",
     },
   ];
   
@@ -141,6 +147,18 @@ const navLinks = [
   
   const expCards = [
     {
+      review: "This project aims to predict whether a person has heart disease based on features such as age, sex, cholesterol level, resting blood pressure, and more. We use a combination of exploratory data analysis (EDA) and machine learning algorithms to evaluate the prediction accuracy.",
+      imgPath: "/images/exp8.png",
+      logoPath: "/images/logo4.png",
+      title: "Python, ML – Heart Disease Prediction (Personal Project)",
+      date: "April 2024 - April 2024",
+      responsibilities: [
+        "Developed a Random Forest classifier achieving 84.87% accuracy, with a precision of 0.85, recall of 0.84, and an F1-score of 0.84, effectively identifying heart disease risks.",
+        "Preprocessed a dataset of 303 records by handling 5% missing values, normalizing 6 numerical features, and encoding 3 categorical variables, improving model reliability.",
+        "Implemented feature importance analysis to identify key health indicators, improving model interpretability and decision-making.",
+      ],
+    },
+    {
       review: "A survival game built using Unreal Engine 5, showcasing the core game logic and coding aspects. This project emphasizes C++ and Blueprint integration, with detailed explanations and a focus on game mechanics.",
       imgPath: "/images/exp4.png",
       logoPath: "/images/logo1.svg",
@@ -151,6 +169,30 @@ const navLinks = [
         "Implemented a dynamic inventory system supporting collection, usage, and management of in-game items.",
         "Created an interactive gameplay framework for object interaction, resource harvesting, and environment mechanics.",
         "Optimized performance using procedural content generation and efficient resource management techniques.",
+      ],
+    },
+    {
+      review: "A 3D rendering engine built in C++ with matrix transformation capabilities, 3D model loading, camera controls, and lighting effects. The project features efficient triangle clipping, depth sorting, and vector mathematics implementations for smooth real-time rendering.",
+      imgPath: "/images/exp8.png",
+      logoPath: "/images/logo2.svg",
+      title: "C++ – 3D Game Engine (Personal Project)",
+      date: "August 2024 - September 2024",
+      responsibilities: [
+        "Developed a complete 3D rendering pipeline with matrix-based transformations, projection, and camera systems.",
+        "Implemented efficient algorithms for triangle clipping, depth sorting, and lighting calculations.",
+        "Created a custom vector math library with cross products, dot products, and matrix operations for 3D transformations.",
+      ],
+    },
+    {
+      review: "A RESTful API service for managing subscription data, built with Node.js, C++, and MongoDB. The project includes secure authentication, thorough testing, and performance optimizations to ensure reliable and scalable backend functionality.",
+      imgPath: "/images/exp7.png",
+      logoPath: "/images/logo3.svg",
+      title: "Node.js – Subscription Tracker API (Personal Project)",
+      date: "February 2025 - March 2025",
+      responsibilities: [
+        "Designed and developed the system with secure authentication and source code version control practices.",
+        "Implemented comprehensive test cases covering API endpoints, data validation, and security checks.",
+        "Improved performance by applying request rate limiting and optimizing database queries, resulting in 40% faster response times.",
       ],
     },
     {
@@ -166,18 +208,6 @@ const navLinks = [
         "Implemented a flexible status effect system using the Strategy pattern.",
       ],
     },
-    {
-      review: "A RESTful API service for managing subscription data, built with Node.js, C++, and MongoDB. The project includes secure authentication, thorough testing, and performance optimizations to ensure reliable and scalable backend functionality.",
-      imgPath: "/images/exp7.png",
-      logoPath: "/images/logo3.svg",
-      title: "Node.js – Subscription Tracker API (Personal Project)",
-      date: "February 2025 - March 2025",
-      responsibilities: [
-        "Designed and developed the system with secure authentication and source code version control practices.",
-        "Implemented comprehensive test cases covering API endpoints, data validation, and security checks.",
-        "Improved performance by applying request rate limiting and optimizing database queries, resulting in 40% faster response times.",
-      ],
-    }
   ];
   
   const expLogos = [
