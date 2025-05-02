@@ -12,7 +12,7 @@ const Testimonials = () => {
                 sub = "A Journey of Learning and Building"                
             />
 
-            <div className='lg:columns-3 md:columns-2 columns-1 mt-16'>
+            <div className='lg:columns-4 md:columns-2 columns-1 mt-16'>
                 {testimonials.map((testimonial) => (
                     <GlowCard card={testimonial}>
                         <div className='flex items-center gap-3'>

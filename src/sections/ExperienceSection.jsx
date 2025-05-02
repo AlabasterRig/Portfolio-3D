@@ -19,7 +19,8 @@ const ExperienceSection = () => {
                 ease: 'power2.inOut',
                 scrollTrigger: {
                     trigger: card,
-                    start: 'top 80%'
+                    start: 'top 80%',
+                    toggleActions: 'play none none reverse',
                 }
             })
         })
@@ -47,7 +48,8 @@ const ExperienceSection = () => {
                 ease: 'power2.inOut',
                 scrollTrigger: {
                     trigger: text,
-                    start: 'top 60%'
+                    start: 'top 60%',
+                    toggleActions: 'play none none reverse',
                 }
             })
         })

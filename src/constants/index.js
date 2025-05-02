@@ -150,7 +150,7 @@ const navLinks = [
       review: "This project aims to predict whether a person has heart disease based on features such as age, sex, cholesterol level, resting blood pressure, and more. We use a combination of exploratory data analysis (EDA) and machine learning algorithms to evaluate the prediction accuracy.",
       imgPath: "/images/exp8.png",
       logoPath: "/images/logo4.png",
-      title: "Python, ML – Heart Disease Prediction (Personal Project)",
+      title: "Python, ML – Heart Disease Prediction (University Minor Project)",
       date: "April 2024 - April 2024",
       responsibilities: [
         "Developed a Random Forest classifier achieving 84.87% accuracy, with a precision of 0.85, recall of 0.84, and an F1-score of 0.84, effectively identifying heart disease risks.",
@@ -159,7 +159,7 @@ const navLinks = [
       ],
     },
     {
-      review: "A survival game built using Unreal Engine 5, showcasing the core game logic and coding aspects. This project emphasizes C++ and Blueprint integration, with detailed explanations and a focus on game mechanics.",
+      review: "A survival game built using Unreal Engine 5, showcasing the core game logic and coding aspects. This project emphasizes C++ and Blueprint integration, with a focus on gameplay mechanics, player interactions, and environmental elements. The game features a modular save/load system, dynamic inventory management, and an interactive gameplay framework.",
       imgPath: "/images/exp4.png",
       logoPath: "/images/logo1.svg",
       title: "Unreal Engine, C++ – Fall Guy Survival (Personal Project)",
@@ -184,7 +184,7 @@ const navLinks = [
       ],
     },
     {
-      review: "A RESTful API service for managing subscription data, built with Node.js, C++, and MongoDB. The project includes secure authentication, thorough testing, and performance optimizations to ensure reliable and scalable backend functionality.",
+      review: "A RESTful API service for managing subscription data, built with Node.js, and MongoDB. The project includes secure authentication, thorough testing, and performance optimizations to ensure reliable and scalable backend functionality.",
       imgPath: "/images/exp7.png",
       logoPath: "/images/logo3.svg",
       title: "Node.js – Subscription Tracker API (Personal Project)",
@@ -199,8 +199,8 @@ const navLinks = [
       review: "A command-line Pokemon battle simulator in C++ featuring turn-based combat, multiple Pokemon species with unique moves, status effects, and environment-specific encounters. Experience Pokemon battles through this OOP showcase with inheritance, polymorphism, and Strategy pattern for extensible game mechanics. ",
       imgPath: "/images/exp6.png",
       logoPath: "/images/logo2.svg",
-      title: "C++ – Pokemon Turn-Based RPG (Personal Project)",
-      date: "April 2025 - Present",
+      title: "C++ – Pokemon Turn-Based RPG (Outscal)",
+      date: "April 2025 - April 2025",
       responsibilities: [
         "Built a battle system using OOP principles, with 8+ unique species and diverse abilities.",
         "Developed a dynamic combat system with state management, damage calculation, and move selection.",
@@ -226,6 +226,13 @@ const navLinks = [
   ];
   
   const testimonials = [
+    {
+      name: "Outscal - Full Stack Game Development",
+      mentions: "2025 - Present",
+      review:
+        "Currently enrolled in the Full Stack Game Development program at Outscal, where I am learning advanced game development techniques and best practices. The program covers a wide range of topics, including Unity, C++, C# and game design principles.",
+      imgPath: "/images/client1.png",
+    },
     {
       name: "Kalinga Institute of Industrial Technology",
       mentions: "2021 - 2025",
